@@ -80,6 +80,7 @@ RUN fish -c "tide configure --auto --style=Lean --prompt_colors='True color' --s
 
 RUN mkdir -p /home/${PWN_USER}/.config/fish/conf.d && echo "source /home/${PWN_USER}/ctfs/tools/pwn/bin/activate.fish" >> /home/${PWN_USER}/.config/fish/conf.d/10-pwntools.fish
 
+
 COPY ./tmux.conf /home/${PWN_USER}/.config/tmux/tmux.conf
 COPY ./config.toml /home/${PWN_USER}/.config/helix/config.toml
 WORKDIR /home/${PWN_USER}
