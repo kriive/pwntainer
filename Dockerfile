@@ -13,6 +13,7 @@ RUN dpkg --add-architecture i386 \
   elfutils \
   fish \
   flex \
+  foot-terminfo \
   g++-aarch64-linux-gnu \
   g++-arm-linux-gnueabihf \
   gcc-aarch64-linux-gnu \
